@@ -118,7 +118,7 @@ U 1 1 6031B799
 P 8100 2200
 F 0 "U1" H 8100 2442 50  0000 C CNN
 F 1 "LT1085-5.0" H 8100 2351 50  0000 C CNN
-F 2 "" H 8100 2450 50  0001 C CIN
+F 2 "LT1085_charger:TO220L1" H 8100 2450 50  0001 C CIN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1083ffe.pdf" H 8100 2200 50  0001 C CNN
 	1    8100 2200
 	1    0    0    -1  
