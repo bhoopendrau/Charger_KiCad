@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model EEUFM1C102
+#/233454/430160/2.48/2/3/Capacitor
+DEF EEUFM1C102 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EEUFM1C102" 350 150 50 H V L CNN
+F2 "10X20" 350 50 50 H I L CNN
+F3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1018.pdf" 350 -50 50 H I L CNN
+F4 "Al Electrolytic Cap 105C 16V 1000uF Panasonic 1000uF 16 V dc Aluminium Electrolytic Capacitor, FM Series 5000h 10 Dia. x 20mm" 350 -150 50 H I L CNN "Description"
+F5 "" 350 -250 50 H I L CNN "Height"
+F6 "Panasonic" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "EEUFM1C102" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

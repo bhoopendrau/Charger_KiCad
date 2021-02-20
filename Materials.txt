@@ -1,3 +1,6 @@
 1. Diode 1N4005 https://www.digikey.com/en/products/detail/nte-electronics-inc/1N4005/11649830?utm_source=snapeda&utm_campaign=buynow&utm_medium=aggregator
-2. Zener https://www.mouser.in/ProductDetail/ON-Semiconductor/BZX84C8V2LT1G/?utm_campaign=mouser&utm_content=model&qs=vNc2DXHODiKCF4p1YfaM5g==&utm_medium=online&utm_source=snapedaonline
-3. 
+2. Zener https://www.snapeda.com/parts/BZX85C10/ON%20Semiconductor/view-part/?ref=search&t=BZX85C10
+3. cap 47u 25v https://componentsearchengine.com/part-view/EEE-TG1E470P/Panasonic
+4. cap 1000uf 25v https://componentsearchengine.com/part-view/EEUFM1C102/Panasonic
+5. resistor 20 https://www.snapeda.com/parts/ERG-3SJ200/Panasonic%20Electronic/view-part/?ref=search&t=resistor%2020%20axial
+6. usb a https://www.snapeda.com/parts/USB-A-S-F-B-SM2-R/Samtec%20Inc./view-part/?ref=search&t=usb%20a
