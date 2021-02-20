@@ -14,25 +14,227 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
+L Diode:1N914 D?
+U 1 1 6031057C
+P 3100 2550
+F 0 "D?" V 3054 2630 50  0000 L CNN
+F 1 "1N914" V 3145 2630 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3100 2375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3100 2550 50  0001 C CNN
+	1    3100 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N914 D?
+U 1 1 60311C82
+P 3100 3800
+F 0 "D?" V 3054 3880 50  0000 L CNN
+F 1 "1N914" V 3145 3880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3100 3625 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3100 3800 50  0001 C CNN
+	1    3100 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N914 D?
+U 1 1 60312AAD
+P 4200 2550
+F 0 "D?" V 4154 2630 50  0000 L CNN
+F 1 "1N914" V 4245 2630 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4200 2375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4200 2550 50  0001 C CNN
+	1    4200 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N914 D?
+U 1 1 60313CDB
+P 4200 3800
+F 0 "D?" V 4154 3880 50  0000 L CNN
+F 1 "1N914" V 4245 3880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4200 3625 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4200 3800 50  0001 C CNN
+	1    4200 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:CAP C?
+U 1 1 60316869
+P 5050 3250
+F 0 "C?" H 5228 3296 50  0000 L CNN
+F 1 "CAP" H 5228 3205 50  0000 L CNN
+F 2 "" H 5050 3250 50  0001 C CNN
+F 3 "~" H 5050 3250 50  0001 C CNN
+	1    5050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BZX84Cxx D?
+U 1 1 603170B0
+P 6000 3550
+F 0 "D?" V 5954 3630 50  0000 L CNN
+F 1 "BZX84Cxx" V 6045 3630 50  0000 L CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 6000 3375 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 6000 3550 50  0001 C CNN
+	1    6000 3550
+	0    1    1    0   
+$EndComp
+$Comp
 L Device:R R?
-U 1 1 60309E92
-P 5400 2800
-F 0 "R?" H 5470 2846 50  0000 L CNN
-F 1 "R" H 5470 2755 50  0000 L CNN
-F 2 "" V 5330 2800 50  0001 C CNN
-F 3 "~" H 5400 2800 50  0001 C CNN
-	1    5400 2800
+U 1 1 60317AB7
+P 6000 2550
+F 0 "R?" H 6070 2596 50  0000 L CNN
+F 1 "R" H 6070 2505 50  0000 L CNN
+F 2 "" V 5930 2550 50  0001 C CNN
+F 3 "~" H 6000 2550 50  0001 C CNN
+	1    6000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C?
+U 1 1 60318512
+P 7000 2950
+F 0 "C?" H 7178 2996 50  0000 L CNN
+F 1 "CAP" H 7178 2905 50  0000 L CNN
+F 2 "" H 7000 2950 50  0001 C CNN
+F 3 "~" H 7000 2950 50  0001 C CNN
+	1    7000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C?
+U 1 1 6031AA99
+P 9650 3100
+F 0 "C?" H 9828 3146 50  0000 L CNN
+F 1 "CAP" H 9828 3055 50  0000 L CNN
+F 2 "" H 9650 3100 50  0001 C CNN
+F 3 "~" H 9650 3100 50  0001 C CNN
+	1    9650 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
-U 1 1 6030A5AE
-P 4450 2850
-F 0 "R?" H 4520 2896 50  0000 L CNN
-F 1 "R" H 4520 2805 50  0000 L CNN
-F 2 "" V 4380 2850 50  0001 C CNN
-F 3 "~" H 4450 2850 50  0001 C CNN
-	1    4450 2850
+U 1 1 6031AFD1
+P 10350 3100
+F 0 "R?" H 10420 3146 50  0000 L CNN
+F 1 "R" H 10420 3055 50  0000 L CNN
+F 2 "" V 10280 3100 50  0001 C CNN
+F 3 "~" H 10350 3100 50  0001 C CNN
+	1    10350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LT1085-5.0 U?
+U 1 1 6031B799
+P 8100 2200
+F 0 "U?" H 8100 2442 50  0000 C CNN
+F 1 "LT1085-5.0" H 8100 2351 50  0000 C CNN
+F 2 "" H 8100 2450 50  0001 C CIN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1083ffe.pdf" H 8100 2200 50  0001 C CNN
+	1    8100 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2200 9650 2200
+Wire Wire Line
+	3100 3950 3100 4150
+Wire Wire Line
+	3100 4150 4200 4150
+Wire Wire Line
+	4200 4150 4200 3950
+Wire Wire Line
+	4200 3650 4200 2700
+Wire Wire Line
+	4200 2400 4200 2200
+Wire Wire Line
+	4200 2200 3100 2200
+Wire Wire Line
+	3100 2200 3100 2400
+Wire Wire Line
+	3100 2700 3100 3650
+Wire Wire Line
+	5050 3000 5050 2200
+Wire Wire Line
+	5050 2200 4200 2200
+Connection ~ 4200 2200
+Wire Wire Line
+	5050 3500 5050 4150
+Wire Wire Line
+	5050 4150 4200 4150
+Connection ~ 4200 4150
+Wire Wire Line
+	6000 4150 6000 3700
+Wire Wire Line
+	6000 3400 6000 3000
+Wire Wire Line
+	6000 2400 6000 2200
+Wire Wire Line
+	6000 2200 5050 2200
+Connection ~ 5050 2200
+Wire Wire Line
+	6000 3000 6500 3000
+Wire Wire Line
+	6500 3000 6500 2200
+Wire Wire Line
+	6500 2200 7000 2200
+Wire Wire Line
+	7000 2200 7000 2700
+Connection ~ 6000 3000
+Wire Wire Line
+	6000 3000 6000 2700
+Wire Wire Line
+	7000 3200 7000 4150
+Wire Wire Line
+	7000 4150 6000 4150
+Connection ~ 6000 4150
+Wire Wire Line
+	5050 4150 6000 4150
+Connection ~ 5050 4150
+Wire Wire Line
+	7000 2200 7800 2200
+Connection ~ 7000 2200
+Wire Wire Line
+	7000 4150 8100 4150
+Wire Wire Line
+	10350 4150 10350 3250
+Connection ~ 7000 4150
+Connection ~ 9650 4150
+Wire Wire Line
+	9650 4150 10350 4150
+Connection ~ 9650 2200
+Wire Wire Line
+	9650 2200 10350 2200
+Wire Wire Line
+	9650 3350 9650 4150
+Wire Wire Line
+	9650 2200 9650 2850
+Wire Wire Line
+	10350 2200 10350 2950
+Wire Wire Line
+	8100 2500 8100 4150
+Connection ~ 8100 4150
+Wire Wire Line
+	8100 4150 9650 4150
+$Comp
+L power:GND #PWR?
+U 1 1 6032C60B
+P 7000 4150
+F 0 "#PWR?" H 7000 3900 50  0001 C CNN
+F 1 "GND" H 7005 3977 50  0000 C CNN
+F 2 "" H 7000 4150 50  0001 C CNN
+F 3 "" H 7000 4150 50  0001 C CNN
+	1    7000 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:AC #PWR?
+U 1 1 6032CF48
+P 1500 3100
+F 0 "#PWR?" H 1500 3000 50  0001 C CNN
+F 1 "AC" H 1500 3375 50  0000 C CNN
+F 2 "" H 1500 3100 50  0001 C CNN
+F 3 "" H 1500 3100 50  0001 C CNN
+	1    1500 3100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
