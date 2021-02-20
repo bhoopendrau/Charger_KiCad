@@ -4,59 +4,15 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Charger"
 Date ""
 Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "For ELP305 Lab"
+Comment4 "Author : Bhoopendra Uikey"
 $EndDescr
-$Comp
-L Diode:1N914 D1
-U 1 1 6031057C
-P 3100 2550
-F 0 "D1" V 3054 2630 50  0000 L CNN
-F 1 "1N914" V 3145 2630 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 3100 2375 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3100 2550 50  0001 C CNN
-	1    3100 2550
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N914 D2
-U 1 1 60311C82
-P 3100 3800
-F 0 "D2" V 3054 3880 50  0000 L CNN
-F 1 "1N914" V 3145 3880 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 3100 3625 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3100 3800 50  0001 C CNN
-	1    3100 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N914 D3
-U 1 1 60312AAD
-P 4200 2550
-F 0 "D3" V 4154 2630 50  0000 L CNN
-F 1 "1N914" V 4245 2630 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 4200 2375 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4200 2550 50  0001 C CNN
-	1    4200 2550
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N914 D4
-U 1 1 60313CDB
-P 4200 3800
-F 0 "D4" V 4154 3880 50  0000 L CNN
-F 1 "1N914" V 4245 3880 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 4200 3625 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4200 3800 50  0001 C CNN
-	1    4200 3800
-	0    1    1    0   
-$EndComp
 $Comp
 L pspice:CAP C1
 U 1 1 60316869
@@ -241,5 +197,73 @@ F 2 "" H 9650 4150 50  0001 C CNN
 F 3 "" H 9650 4150 50  0001 C CNN
 	1    9650 4150
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 6031590C
+P 2150 3100
+F 0 "J1" H 2230 3092 50  0000 L CNN
+F 1 "Input" H 2230 3001 50  0000 L CNN
+F 2 "" H 2150 3100 50  0001 C CNN
+F 3 "~" H 2150 3100 50  0001 C CNN
+	1    2150 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1950 3100 0    50   Input ~ 0
+Vcc
+$Comp
+L power:GND #PWR02
+U 1 1 6031992D
+P 1950 3200
+F 0 "#PWR02" H 1950 2950 50  0001 C CNN
+F 1 "GND" H 1955 3027 50  0000 C CNN
+F 2 "" H 1950 3200 50  0001 C CNN
+F 3 "" H 1950 3200 50  0001 C CNN
+	1    1950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4005 D3
+U 1 1 60321173
+P 4200 2550
+F 0 "D3" V 4154 2630 50  0000 L CNN
+F 1 "1N4005" V 4245 2630 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4200 2375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4200 2550 50  0001 C CNN
+	1    4200 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4005 D1
+U 1 1 60321C5D
+P 3100 2550
+F 0 "D1" V 3054 2630 50  0000 L CNN
+F 1 "1N4005" V 3145 2630 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3100 2375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3100 2550 50  0001 C CNN
+	1    3100 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4005 D2
+U 1 1 603225FE
+P 3100 3800
+F 0 "D2" V 3054 3880 50  0000 L CNN
+F 1 "1N4005" V 3145 3880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3100 3625 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3100 3800 50  0001 C CNN
+	1    3100 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4005 D4
+U 1 1 60322E34
+P 4200 3800
+F 0 "D4" V 4154 3880 50  0000 L CNN
+F 1 "1N4005" V 4245 3880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4200 3625 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4200 3800 50  0001 C CNN
+	1    4200 3800
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

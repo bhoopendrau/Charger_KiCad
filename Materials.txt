@@ -1,0 +1,3 @@
+1. Diode 1N4005 https://www.digikey.com/en/products/detail/nte-electronics-inc/1N4005/11649830?utm_source=snapeda&utm_campaign=buynow&utm_medium=aggregator
+2. Zener https://www.mouser.in/ProductDetail/ON-Semiconductor/BZX84C8V2LT1G/?utm_campaign=mouser&utm_content=model&qs=vNc2DXHODiKCF4p1YfaM5g==&utm_medium=online&utm_source=snapedaonline
+3. 
