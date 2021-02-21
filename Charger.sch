@@ -11,7 +11,7 @@ Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 "For ELP305 Lab"
-Comment4 "Author : Bhoopendra Uikey"
+Comment4 "Author : Group E"
 $EndDescr
 $Comp
 L pspice:CAP C1

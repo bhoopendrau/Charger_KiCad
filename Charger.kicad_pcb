@@ -170,6 +170,11 @@
       (net 4 Vout))
     (pad 3 thru_hole oval (at 2.54 3.81) (size 1.524 3.048) (drill 1.016) (layers *.Cu *.Mask)
       (net 2 "Net-(C2-Pad1)"))
+    (model ${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.step
+      (offset (xyz -2.5 -3.5 0))
+      (scale (xyz 0.9 0.9 0.9))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Capacitor_SMD:CP_Elec_3x5.3 (layer F.Cu) (tedit 5B303299) (tstamp 60327479)
@@ -555,6 +560,11 @@
       (net 3 gnd))
     (pad 1 thru_hole rect (at -5.3 0 270) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask)
       (net 2 "Net-(C2-Pad1)"))
+    (model ${KISYS3DMOD}/Diode_THT.3dshapes/D_T-1_P12.70mm_Horizontal.step
+      (offset (xyz -5.5 0 0))
+      (scale (xyz 0.85 0.9 0.9))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TerminalBlock:TerminalBlock_bornier-2_P5.08mm (layer F.Cu) (tedit 59FF03AB) (tstamp 6031FBA8)
