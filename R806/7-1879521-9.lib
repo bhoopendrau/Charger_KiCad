@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 7-1879521-9
+#
+DEF 7-1879521-9 R 0 40 N N 1 L N
+F0 "R" -150 59 50 H V L BNN
+F1 "7-1879521-9" -150 -130 50 H V L BNN
+F2 "RESC5025X70N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "200 V" 0 0 50 H I L BNN "Voltage_Rating"
+F5 "80.6K" 0 0 50 H I L BNN "Resistance"
+F6 "Compliant with Exemptions" 0 0 50 H I L BNN "EU_RoHS_Compliance"
+F7 "1%" 0 0 50 H I L BNN "Tolerance"
+F8 "2010" 0 0 50 H I L BNN "Package"
+F9 "7-1879521-9" 0 0 50 H I L BNN "Comment"
+F10 "1 W" 0 0 50 H I L BNN "Power_Rating"
+DRAW
+P 2 0 0 8 -100 0 -85 40 N
+P 2 0 0 8 -85 40 -60 -40 N
+P 2 0 0 8 -60 -40 -35 40 N
+P 2 0 0 8 -35 40 -10 -40 N
+P 2 0 0 8 -10 -40 15 40 N
+P 2 0 0 8 15 40 40 -40 N
+P 2 0 0 8 40 -40 65 40 N
+P 2 0 0 8 65 40 90 -40 N
+P 2 0 0 8 90 -40 100 0 N
+X ~ 2 200 0 100 L 40 40 0 0 P 
+X ~ 1 -200 0 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
