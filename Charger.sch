@@ -16,45 +16,12 @@ $EndDescr
 $Comp
 L pspice:CAP C1
 U 1 1 60316869
-P 2000 3400
-F 0 "C1" H 2178 3446 50  0000 L CNN
-F 1 "4.7m" H 2178 3355 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x9.9" H 2000 3400 50  0001 C CNN
-F 3 "~" H 2000 3400 50  0001 C CNN
-	1    2000 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BZX84Cxx D5
-U 1 1 603170B0
-P 2950 3700
-F 0 "D5" V 2904 3780 50  0000 L CNN
-F 1 "BZX84Cxx" V 2995 3780 50  0000 L CNN
-F 2 "zener:DIOAD1060W80L410D260" H 2950 3525 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 2950 3700 50  0001 C CNN
-	1    2950 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 60317AB7
-P 2950 2700
-F 0 "R1" H 3020 2746 50  0000 L CNN
-F 1 "20" H 3020 2655 50  0000 L CNN
-F 2 "R20:RESC1005X35N" V 2880 2700 50  0001 C CNN
-F 3 "~" H 2950 2700 50  0001 C CNN
-	1    2950 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:CAP C2
-U 1 1 60318512
-P 3950 3100
-F 0 "C2" H 4128 3146 50  0000 L CNN
-F 1 "47u" H 4128 3055 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 3950 3100 50  0001 C CNN
-F 3 "~" H 3950 3100 50  0001 C CNN
-	1    3950 3100
+P 4650 3400
+F 0 "C1" H 4828 3446 50  0000 L CNN
+F 1 "4.7m" H 4828 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x9.9" H 4650 3400 50  0001 C CNN
+F 3 "~" H 4650 3400 50  0001 C CNN
+	1    4650 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -69,52 +36,15 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1083ffe
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 3150 2000 2350
+	4650 3150 4650 2350
 Wire Wire Line
-	2000 3650 2000 4300
+	4650 3650 4650 4300
 Wire Wire Line
-	2000 4300 1150 4300
-Wire Wire Line
-	2950 4300 2950 3850
-Wire Wire Line
-	2950 3550 2950 3150
-Wire Wire Line
-	2950 2550 2950 2350
-Wire Wire Line
-	2950 2350 2000 2350
-Connection ~ 2000 2350
-Wire Wire Line
-	2950 3150 3450 3150
-Wire Wire Line
-	3450 3150 3450 2350
-Wire Wire Line
-	3450 2350 3950 2350
-Wire Wire Line
-	3950 2350 3950 2850
-Connection ~ 2950 3150
-Wire Wire Line
-	2950 3150 2950 2850
-Wire Wire Line
-	3950 3350 3950 4300
-Wire Wire Line
-	3950 4300 2950 4300
-Connection ~ 2950 4300
-Wire Wire Line
-	2000 4300 2950 4300
-Connection ~ 2000 4300
-Wire Wire Line
-	3950 2350 4750 2350
-Connection ~ 3950 2350
-Wire Wire Line
-	3950 4300 5050 4300
-Connection ~ 3950 4300
+	4650 4300 3800 4300
 Wire Wire Line
 	6600 3500 6600 4300
 Wire Wire Line
 	6600 2350 6600 3000
-Wire Wire Line
-	5050 2650 5050 4300
-Connection ~ 5050 4300
 Wire Wire Line
 	5050 4300 6600 4300
 $Comp
@@ -162,30 +92,30 @@ Text GLabel 9100 1250 0    50   Input ~ 0
 Vout
 Text GLabel 9100 1550 0    50   Input ~ 0
 gnd
-Text GLabel 3600 1550 2    50   Input ~ 10
+Text GLabel 4850 1500 2    50   Input ~ 10
 -
-Text GLabel 3600 1150 2    50   Input ~ 10
+Text GLabel 4850 1100 2    50   Input ~ 10
 +
-Text GLabel 850  3150 0    50   Input ~ 10
+Text GLabel 3500 3150 0    50   Input ~ 10
 -
 $Comp
 L Device:D_Bridge_+-AA D1
 U 1 1 603431A1
-P 1150 3150
-F 0 "D1" V 1196 2806 50  0000 R CNN
-F 1 "D_Bridge_+-AA" V 1105 2806 50  0000 R CNN
-F 2 "rectifier:SOIC245P670X270-4N" H 1150 3150 50  0001 C CNN
-F 3 "~" H 1150 3150 50  0001 C CNN
-	1    1150 3150
+P 3800 3150
+F 0 "D1" V 3846 2806 50  0000 R CNN
+F 1 "D_Bridge_+-AA" V 3755 2806 50  0000 R CNN
+F 2 "rectifier:SOIC245P670X270-4N" H 3800 3150 50  0001 C CNN
+F 3 "~" H 3800 3150 50  0001 C CNN
+	1    3800 3150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1150 3450 1150 4300
+	3800 3450 3800 4300
 Wire Wire Line
-	1150 2850 1150 2350
+	3800 2850 3800 2350
 Wire Wire Line
-	1150 2350 2000 2350
-Text GLabel 1450 3150 3    50   Input ~ 0
+	3800 2350 4650 2350
+Text GLabel 4100 3150 3    50   Input ~ 0
 +
 $Comp
 L 2021-02-22_11-22-20:TPS2546RTER U2
@@ -285,23 +215,32 @@ NoConn ~ 7250 3250
 NoConn ~ 9100 1350
 NoConn ~ 9100 1450
 NoConn ~ 8650 3850
-$Comp
-L Device:Transformer_1P_1S T1
-U 1 1 60353ABB
-P 3200 1350
-F 0 "T1" H 3200 1731 50  0000 C CNN
-F 1 "Transformer_1P_1S" H 3200 1640 50  0000 C CNN
-F 2 "Transformer_THT:Transformer_Breve_TEZ-47x57" H 3200 1350 50  0001 C CNN
-F 3 "~" H 3200 1350 50  0001 C CNN
-	1    3200 1350
-	1    0    0    -1  
-$EndComp
 Text GLabel 1300 1000 0    50   Input ~ 0
 AC1
 Text GLabel 1300 1100 0    50   Input ~ 0
 AC2
-Text GLabel 2800 1150 0    50   Input ~ 0
+Text GLabel 4450 1100 0    50   Input ~ 0
 AC1
-Text GLabel 2800 1550 0    50   Input ~ 0
+Text GLabel 4450 1500 0    50   Input ~ 0
 AC2
+$Comp
+L Transformer:TEZ6.0-D-1 TR1
+U 1 1 60359C75
+P 4650 1300
+F 0 "TR1" H 4650 1725 50  0000 C CNN
+F 1 "TEZ6.0-D-1" H 4650 1634 50  0000 C CNN
+F 2 "Transformer_THT:Transformer_Breve_TEZ-38x45" H 4650 950 50  0001 C CIN
+F 3 "http://www.breve.pl/pdf/ANG/TEZ_ang.pdf" H 4650 1300 50  0001 C CNN
+	1    4650 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2650 5050 4300
+Wire Wire Line
+	4650 2350 4750 2350
+Connection ~ 4650 2350
+Wire Wire Line
+	4650 4300 5050 4300
+Connection ~ 4650 4300
+Connection ~ 5050 4300
 $EndSCHEMATC
