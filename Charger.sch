@@ -92,9 +92,9 @@ Text GLabel 9100 1250 0    50   Input ~ 0
 Vout
 Text GLabel 9100 1550 0    50   Input ~ 0
 gnd
-Text GLabel 4850 1500 2    50   Input ~ 10
+Text GLabel 7000 1350 2    50   Input ~ 10
 -
-Text GLabel 4850 1100 2    50   Input ~ 10
+Text GLabel 7000 950  2    50   Input ~ 10
 +
 Text GLabel 3500 3150 0    50   Input ~ 10
 -
@@ -117,17 +117,6 @@ Wire Wire Line
 	3800 2350 4650 2350
 Text GLabel 4100 3150 3    50   Input ~ 0
 +
-$Comp
-L 2021-02-22_11-22-20:TPS2546RTER U2
-U 1 1 6034FCE9
-P 7950 3050
-F 0 "U2" H 7950 4136 60  0000 C CNN
-F 1 "TPS2546RTER" H 7950 4030 60  0000 C CNN
-F 2 "footprints:TPS2546RTER" H 7950 2990 60  0001 C CNN
-F 3 "" H 7950 3050 60  0000 C CNN
-	1    7950 3050
-	1    0    0    -1  
-$EndComp
 Connection ~ 6600 2350
 Text GLabel 6600 2350 1    50   Input ~ 0
 Vint
@@ -206,32 +195,28 @@ Wire Wire Line
 	6950 2350 7250 2350
 Text GLabel 8650 2350 2    50   Input ~ 0
 Vout
-NoConn ~ 8650 2550
-NoConn ~ 8650 2750
 NoConn ~ 7250 2750
 NoConn ~ 7250 2950
 NoConn ~ 7250 3150
 NoConn ~ 7250 3250
-NoConn ~ 9100 1350
-NoConn ~ 9100 1450
 NoConn ~ 8650 3850
 Text GLabel 1300 1000 0    50   Input ~ 0
 AC1
 Text GLabel 1300 1100 0    50   Input ~ 0
 AC2
-Text GLabel 4450 1100 0    50   Input ~ 0
+Text GLabel 6600 950  0    50   Input ~ 0
 AC1
-Text GLabel 4450 1500 0    50   Input ~ 0
+Text GLabel 6600 1350 0    50   Input ~ 0
 AC2
 $Comp
 L Transformer:TEZ6.0-D-1 TR1
 U 1 1 60359C75
-P 4650 1300
-F 0 "TR1" H 4650 1725 50  0000 C CNN
-F 1 "TEZ6.0-D-1" H 4650 1634 50  0000 C CNN
-F 2 "Transformer_THT:Transformer_Breve_TEZ-38x45" H 4650 950 50  0001 C CIN
-F 3 "http://www.breve.pl/pdf/ANG/TEZ_ang.pdf" H 4650 1300 50  0001 C CNN
-	1    4650 1300
+P 6800 1150
+F 0 "TR1" H 6800 1575 50  0000 C CNN
+F 1 "TEZ6.0-D-1" H 6800 1484 50  0000 C CNN
+F 2 "Transformer_THT:Transformer_Breve_TEZ-38x45" H 6800 800 50  0001 C CIN
+F 3 "http://www.breve.pl/pdf/ANG/TEZ_ang.pdf" H 6800 1150 50  0001 C CNN
+	1    6800 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -243,4 +228,27 @@ Wire Wire Line
 	4650 4300 5050 4300
 Connection ~ 4650 4300
 Connection ~ 5050 4300
+$Comp
+L 2021-02-22_11-22-20:TPS2546RTER U2
+U 1 1 6034FCE9
+P 7950 3050
+F 0 "U2" H 7950 4136 60  0000 C CNN
+F 1 "TPS2546" H 7950 4030 60  0000 C CNN
+F 2 "footprints:TPS2546RTER" H 7950 2990 60  0001 C CNN
+F 3 "" H 7950 3050 60  0000 C CNN
+F 4 "X" H 7950 3050 50  0001 C CNN "Spice_Primitive"
+F 5 "TPS2546_TRANS" H 7950 3050 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 7950 3050 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "C:\\Users\\bhoop\\Downloads\\slvm796a\\SLVM796\\TPS2546_PSPICE_TRANS\\TPS2546_TRANS.LIB" H 7950 3050 50  0001 C CNN "Spice_Lib_File"
+	1    7950 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 9100 1350 0    50   Input ~ 0
+DM
+Text GLabel 9100 1450 0    50   Input ~ 0
+DP
+Text GLabel 8650 2550 2    50   Input ~ 0
+DM
+Text GLabel 8650 2750 2    50   Input ~ 0
+DP
 $EndSCHEMATC
