@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name R20)(type KiCad)(uri ${KIPRJMOD}/R20)(options "")(descr ""))
   (lib (name R100k)(type KiCad)(uri ${KIPRJMOD}/R100k)(options "")(descr ""))
+  (lib (name R169)(type KiCad)(uri ${KIPRJMOD}/R169)(options "")(descr ""))
+  (lib (name R806)(type KiCad)(uri ${KIPRJMOD}/R806)(options "")(descr ""))
 )
