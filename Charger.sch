@@ -18,8 +18,8 @@ L pspice:CAP C1
 U 1 1 60316869
 P 2000 3400
 F 0 "C1" H 2178 3446 50  0000 L CNN
-F 1 "1m" H 2178 3355 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 2000 3400 50  0001 C CNN
+F 1 "4.7m" H 2178 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x9.9" H 2000 3400 50  0001 C CNN
 F 3 "~" H 2000 3400 50  0001 C CNN
 	1    2000 3400
 	1    0    0    -1  
@@ -286,12 +286,12 @@ NoConn ~ 9100 1350
 NoConn ~ 9100 1450
 NoConn ~ 8650 3850
 $Comp
-L Device:Transformer_1P_1S T?
+L Device:Transformer_1P_1S T1
 U 1 1 60353ABB
 P 3200 1350
-F 0 "T?" H 3200 1731 50  0000 C CNN
-F 1 "Transformer_1P_1S" H 3200 1640 50  0000 C CNN
-F 2 "" H 3200 1350 50  0001 C CNN
+F 0 "T1" H 3200 1731 50  0000 C CNN
+F 1 "Transformer_12P_1S" H 3200 1640 50  0000 C CNN
+F 2 "Transformer_SMD:Transformer_Coilcraft_CST2010" H 3200 1350 50  0001 C CNN
 F 3 "~" H 3200 1350 50  0001 C CNN
 	1    3200 1350
 	1    0    0    -1  
