@@ -290,8 +290,8 @@ L Device:Transformer_1P_1S T1
 U 1 1 60353ABB
 P 3200 1350
 F 0 "T1" H 3200 1731 50  0000 C CNN
-F 1 "Transformer_12P_1S" H 3200 1640 50  0000 C CNN
-F 2 "Transformer_SMD:Transformer_Coilcraft_CST2010" H 3200 1350 50  0001 C CNN
+F 1 "Transformer_1P_1S" H 3200 1640 50  0000 C CNN
+F 2 "Transformer_THT:Transformer_Breve_TEZ-47x57" H 3200 1350 50  0001 C CNN
 F 3 "~" H 3200 1350 50  0001 C CNN
 	1    3200 1350
 	1    0    0    -1  
