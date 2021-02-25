@@ -407,8 +407,6 @@ Wire Wire Line
 	1750 7400 1750 7550
 Text GLabel 4600 5950 2    50   Input ~ 0
 gnd
-Wire Wire Line
-	6300 4300 6600 4300
 Connection ~ 6600 4300
 Text GLabel 4600 6050 2    50   Input ~ 0
 Vin_sense
@@ -501,8 +499,8 @@ $Comp
 L pspice:DIODE D5
 U 1 1 603824E5
 P 4600 4700
-F 0 "D5" V 4646 4572 50  0000 R CNN
-F 1 "GSD2004W-V" V 4555 4572 50  0000 R CNN
+F 0 "D5" V 4600 5000 50  0000 R CNN
+F 1 "GSD2004W-V" V 4500 5350 50  0000 R CNN
 F 2 "1N4148WS:SODFL2512X100N" H 4600 4700 50  0001 C CNN
 F 3 "~" H 4600 4700 50  0001 C CNN
 	1    4600 4700
@@ -514,8 +512,8 @@ $Comp
 L Device:D_Zener D4
 U 1 1 60384E6B
 P 4600 4050
-F 0 "D4" V 4646 3970 50  0000 R CNN
-F 1 "DFLZ33" V 4555 3970 50  0000 R CNN
+F 0 "D4" V 4650 4350 50  0000 R CNN
+F 1 "DFLZ33" V 4550 4500 50  0000 R CNN
 F 2 "1N4148WS:SODFL2512X100N" H 4600 4050 50  0001 C CNN
 F 3 "~" H 4600 4050 50  0001 C CNN
 	1    4600 4050
@@ -674,16 +672,7 @@ Wire Wire Line
 	5750 5050 5750 5550
 Wire Wire Line
 	2600 2100 4600 2100
-Wire Wire Line
-	4600 2100 4600 3550
 Connection ~ 2600 2100
-Wire Wire Line
-	4600 5050 5250 5050
-Connection ~ 5250 5050
-Wire Wire Line
-	5250 5050 5750 5050
-Text GLabel 5250 3450 0    50   Input ~ 0
-gnd
 Text GLabel 3950 3150 3    50   Input ~ 0
 dcm
 $Comp
@@ -713,8 +702,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 2350 6000 2350
 Connection ~ 5950 2350
-Wire Wire Line
-	5650 2350 5650 3350
 Text GLabel 5950 3000 3    50   Input ~ 0
 gnd
 $Comp
@@ -838,28 +825,6 @@ Connection ~ 2750 3150
 Wire Wire Line
 	2750 3150 2950 3150
 $Comp
-L Transformer:Wuerth_750343373 TR1
-U 1 1 603B20C8
-P 5450 3550
-F 0 "TR1" H 5500 2900 50  0000 C CNN
-F 1 "Wuerth_750343373" H 5550 2800 50  0000 C CNN
-F 2 "Transformer_THT:Transformer_Wuerth_750343373" H 5450 3000 50  0001 C CNN
-F 3 "https://katalog.we-online.com/ctm/datasheet/750343373.pdf" H 5450 3550 50  0001 C CNN
-	1    5450 3550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3850 3150 5250 3150
-Wire Wire Line
-	5250 3550 4600 3550
-Connection ~ 4600 3550
-Wire Wire Line
-	4600 3550 4600 3900
-Wire Wire Line
-	5250 3850 5250 5050
-Text GLabel 5650 3750 2    50   Input ~ 0
-gnd
-$Comp
 L FQT4N25TF:FQT4N25TF Q1
 U 1 1 603D4489
 P 5750 5850
@@ -874,4 +839,61 @@ $EndComp
 Connection ~ 5750 5550
 Wire Wire Line
 	5750 5550 5750 5650
+Text GLabel 5650 2350 0    50   Input ~ 0
+Vsmp
+$Comp
+L 760875131:760875131 T1
+U 1 1 60386D1D
+P 6050 3900
+F 0 "T1" H 6600 3135 50  0000 C CNN
+F 1 "760875131" H 6600 3226 50  0000 C CNN
+F 2 "760875131:760875131" H 7000 4000 50  0001 L CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/760875131.pdf" H 7000 3900 50  0001 L CNN
+F 4 "Audio Transformers / Signal Transformers WE-UOST Univ Offline 1500uH 0.8A 140mOhm" H 7000 3800 50  0001 L CNN "Description"
+F 5 "14" H 7000 3700 50  0001 L CNN "Height"
+F 6 "Wurth Elektronik" H 7000 3600 50  0001 L CNN "Manufacturer_Name"
+F 7 "760875131" H 7000 3500 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "710-760875131" H 7000 3400 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/760875131?qs=TB%2FQ0sBK%2FGdsHNIF9xNITw%3D%3D" H 7000 3300 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 7000 3200 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 7000 3100 50  0001 L CNN "Arrow Price/Stock"
+	1    6050 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 2100 4600 3900
+Wire Wire Line
+	4600 5050 4900 5050
+Wire Wire Line
+	6300 4300 6600 4300
+Text GLabel 6050 3600 2    50   Input ~ 0
+gnd
+Text GLabel 6050 3400 2    50   Input ~ 0
+gnd
+Wire Wire Line
+	3850 3150 4100 3150
+Wire Wire Line
+	4100 3150 4100 3600
+Wire Wire Line
+	4100 3600 4950 3600
+Text GLabel 4950 3400 0    50   Input ~ 0
+gnd
+Wire Wire Line
+	4950 3900 4600 3900
+Connection ~ 4600 3900
+Wire Wire Line
+	4950 3800 4900 3800
+Wire Wire Line
+	4900 3800 4900 5050
+Connection ~ 4900 5050
+Wire Wire Line
+	4900 5050 5750 5050
+Text GLabel 6050 3900 2    50   Input ~ 0
+Vsmp
+Text GLabel 6050 3700 2    50   Input ~ 0
+Vsmp
+NoConn ~ 4950 3500
+NoConn ~ 4950 3700
+NoConn ~ 6050 3800
+NoConn ~ 6050 3500
 $EndSCHEMATC

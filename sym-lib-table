@@ -3,4 +3,5 @@
   (lib (name 1N4148WS)(type Legacy)(uri ${KIPRJMOD}/1N4148WS/1N4148WS.lib)(options "")(descr ""))
   (lib (name FQT4N25TF)(type Legacy)(uri ${KIPRJMOD}/MOSFET/FQT4N25TF.lib)(options "")(descr ""))
   (lib (name test)(type Legacy)(uri ${KIPRJMOD}/test.lib)(options "")(descr ""))
+  (lib (name 760875131)(type Legacy)(uri ${KIPRJMOD}/trans_wur/760875131.lib)(options "")(descr ""))
 )

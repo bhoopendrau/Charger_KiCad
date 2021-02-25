@@ -9,4 +9,6 @@
   (lib (name cap4)(type KiCad)(uri ${KIPRJMOD}/cap4.7u)(options "")(descr ""))
   (lib (name 1N4007)(type KiCad)(uri ${KIPRJMOD}/1N4007)(options "")(descr ""))
   (lib (name MOSFET)(type KiCad)(uri ${KIPRJMOD}/MOSFET)(options "")(descr ""))
+  (lib (name transformer)(type KiCad)(uri ${KIPRJMOD}/transformer.pretty)(options "")(descr ""))
+  (lib (name 760875131)(type Legacy)(uri ${KIPRJMOD}/trans_wur/760875131.mod)(options "")(descr ""))
 )

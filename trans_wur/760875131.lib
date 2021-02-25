@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 760875131
+#/1110358/430160/2.48/12/4/Transformer
+DEF 760875131 T 0 30 Y Y 1 F N
+F0 "T" 950 300 50 H V L CNN
+F1 "760875131" 950 200 50 H V L CNN
+F2 "760875131" 950 100 50 H I L CNN
+F3 "https://katalog.we-online.de/pbs/datasheet/760875131.pdf" 950 0 50 H I L CNN
+F4 "Audio Transformers / Signal Transformers WE-UOST Univ Offline 1500uH 0.8A 140mOhm" 950 -100 50 H I L CNN "Description"
+F5 "14" 950 -200 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "760875131" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "710-760875131" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/760875131?qs=TB%2FQ0sBK%2FGdsHNIF9xNITw%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 2_1 1 0 0 200 R 50 50 0 0 P
+X NC_1 2 0 -100 200 R 50 50 0 0 P
+X 3_1 3 0 -200 200 R 50 50 0 0 P
+X 2_2 4 0 -300 200 R 50 50 0 0 P
+X NC_2 5 0 -400 200 R 50 50 0 0 P
+X 3_2 6 0 -500 200 R 50 50 0 0 P
+X 1_1 7 1100 -500 200 L 50 50 0 0 P
+X NC_3 8 1100 -400 200 L 50 50 0 0 P
+X 1_2 9 1100 -300 200 L 50 50 0 0 P
+X NC_4 10 1100 -200 200 L 50 50 0 0 P
+X 4_1 11 1100 -100 200 L 50 50 0 0 P
+X 4_2 12 1100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
