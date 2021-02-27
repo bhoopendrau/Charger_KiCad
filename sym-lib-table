@@ -4,4 +4,5 @@
   (lib (name FQT4N25TF)(type Legacy)(uri ${KIPRJMOD}/MOSFET/FQT4N25TF.lib)(options "")(descr ""))
   (lib (name test)(type Legacy)(uri ${KIPRJMOD}/test.lib)(options "")(descr ""))
   (lib (name 760875131)(type Legacy)(uri ${KIPRJMOD}/trans_wur/760875131.lib)(options "")(descr ""))
+  (lib (name 0685T8000-01)(type Legacy)(uri ${KIPRJMOD}/fuse/0685T8000-01.lib)(options "")(descr ""))
 )

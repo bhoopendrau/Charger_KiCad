@@ -11,4 +11,5 @@
   (lib (name MOSFET)(type KiCad)(uri ${KIPRJMOD}/MOSFET)(options "")(descr ""))
   (lib (name transformer)(type KiCad)(uri ${KIPRJMOD}/transformer.pretty)(options "")(descr ""))
   (lib (name 760875131)(type Legacy)(uri ${KIPRJMOD}/trans_wur/760875131.mod)(options "")(descr ""))
+  (lib (name fuse)(type KiCad)(uri ${KIPRJMOD}/fuse)(options "")(descr ""))
 )

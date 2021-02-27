@@ -11,18 +11,18 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 4736)
+    (start_pass_no 3742)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 3.1)
+      (against_preferred_direction_trace_costs 2.7)
     )
     (layer_rule B.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.5)
+      (against_preferred_direction_trace_costs 1.6)
     )
   )
   (rule
@@ -69,7 +69,7 @@
     Vout1 DP1 "Net-(J3-PadS1)" DP2 Vout2 DM2 "Net-(Q1-Pad1)" "Net-(Q1-Pad3)"
     "Net-(D5-Pad1)" Stat1 Stat2 "Net-(R5-Pad1)" "Net-(R6-Pad1)" "Net-(R7-Pad1)" "Net-(R7-Pad2)" "Net-(R10-Pad1)"
     "Vin_sense" en "Net-(U4-Pad17)" "Net-(U4-Pad13)" "Net-(U4-Pad3)" "Net-(U4-Pad2)" Vsmp "Net-(T1-Pad2)"
-    "Net-(T1-Pad5)" "Net-(T1-Pad8)" "Net-(T1-Pad10)" "Net-(D4-Pad1)"
+    "Net-(T1-Pad5)" "Net-(T1-Pad8)" "Net-(T1-Pad10)" "Net-(D4-Pad1)" "Net-(D1-Pad1)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
