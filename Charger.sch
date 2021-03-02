@@ -34,20 +34,9 @@ U 1 1 6031AA99
 P 6600 3250
 F 0 "C3" H 6778 3296 50  0000 L CNN
 F 1 "47u" H 6778 3205 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 6600 3250 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_4x3.9" H 6600 3250 50  0001 C CNN
 F 3 "~" H 6600 3250 50  0001 C CNN
 	1    6600 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J1
-U 1 1 6031590C
-P 3600 700
-F 0 "J1" H 3680 692 50  0000 L CNN
-F 1 "Input" H 3680 601 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3600 700 50  0001 C CNN
-F 3 "~" H 3600 700 50  0001 C CNN
-	1    3600 700 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -144,9 +133,9 @@ NoConn ~ 7250 2950
 NoConn ~ 7250 3150
 NoConn ~ 7250 3250
 NoConn ~ 8650 3850
-Text GLabel 3400 700  0    50   Input ~ 0
+Text GLabel 3800 750  2    50   Input ~ 0
 AC1
-Text GLabel 3400 800  0    50   Input ~ 0
+Text GLabel 3800 850  2    50   Input ~ 0
 AC2
 Wire Wire Line
 	6300 2650 6300 4300
@@ -398,7 +387,7 @@ U 1 1 603890DE
 P 1750 7150
 F 0 "C4" H 1928 7196 50  0000 L CNN
 F 1 "0.1u" H 1928 7105 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 1750 7150 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 1750 7150 50  0001 C CNN
 F 3 "~" H 1750 7150 50  0001 C CNN
 	1    1750 7150
 	1    0    0    -1  
@@ -451,7 +440,7 @@ U 1 1 60371D80
 P 6000 7300
 F 0 "C9" H 6115 7346 50  0000 L CNN
 F 1 "22p" H 6115 7255 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 6038 7150 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 6038 7150 50  0001 C CNN
 F 3 "~" H 6000 7300 50  0001 C CNN
 	1    6000 7300
 	1    0    0    -1  
@@ -529,7 +518,7 @@ U 1 1 6039DE55
 P 2000 2350
 F 0 "C1" H 2115 2396 50  0000 L CNN
 F 1 "470u" H 2115 2305 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm" H 2038 2200 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_5x4.4" H 2038 2200 50  0001 C CNN
 F 3 "~" H 2000 2350 50  0001 C CNN
 	1    2000 2350
 	1    0    0    -1  
@@ -594,7 +583,7 @@ U 1 1 603A9818
 P 2200 3300
 F 0 "C5" H 2315 3346 50  0000 L CNN
 F 1 "10u" H 2315 3255 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 2238 3150 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 2238 3150 50  0001 C CNN
 F 3 "~" H 2200 3300 50  0001 C CNN
 	1    2200 3300
 	1    0    0    -1  
@@ -630,7 +619,7 @@ U 1 1 603708E1
 P 5200 6950
 F 0 "C7" V 4948 6950 50  0000 C CNN
 F 1 "4.7p" V 5039 6950 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 5238 6800 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 5238 6800 50  0001 C CNN
 F 3 "~" H 5200 6950 50  0001 C CNN
 	1    5200 6950
 	0    1    1    0   
@@ -673,7 +662,7 @@ U 1 1 603E8C71
 P 5950 2850
 F 0 "C8" H 6065 2896 50  0000 L CNN
 F 1 "470u" H 6065 2805 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 5988 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_5x4.4" H 5988 2700 50  0001 C CNN
 F 3 "~" H 5950 2850 50  0001 C CNN
 	1    5950 2850
 	1    0    0    -1  
@@ -909,5 +898,27 @@ F 6 "BELFUSE" H 1700 2100 50  0001 L BNN "MANUFACTURER"
 F 7 "Jan2019" H 1700 2100 50  0001 L BNN "PARTREV"
 	1    1700 2100
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 603D66F1
+P 3800 750
+F 0 "TP1" V 3995 822 50  0000 C CNN
+F 1 "TestPoint" V 3904 822 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4000 750 50  0001 C CNN
+F 3 "~" H 4000 750 50  0001 C CNN
+	1    3800 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 603D7132
+P 3800 850
+F 0 "TP2" V 3600 1000 50  0000 C CNN
+F 1 "TestPoint" V 3700 1000 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4000 850 50  0001 C CNN
+F 3 "~" H 4000 850 50  0001 C CNN
+	1    3800 850 
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
